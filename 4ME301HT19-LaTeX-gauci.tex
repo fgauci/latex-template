@@ -1,0 +1,79 @@
+\documentclass[10pt]{article}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{hyperref}
+\graphicspath{ {./images/}}
+\renewcommand{\listfigurename}{List of Figures}
+\renewcommand{\listtablename}{List of Tables}
+\usepackage[top=2in, left=1.95in, right=1.95in]{geometry}
+\usepackage[letterspace=150]{microtype}
+
+\hypersetup{
+	colorlinks=true
+}
+
+\begin{document}
+
+\title{Example \LaTeX \ article for course 4ME301}
+\author{Francesca Gauci \\ \textit{19960313-T500} \\ \texttt {fg222ht@student.lnu.se} \\ Linnæus University, Växjö}
+\date{August 18, 2017}
+
+\maketitle
+
+\begin{abstract} {This assignment aims to make you familiar with the basic features
+	of \LaTeX~which should come useful when preparing your own reports,
+	and eventually your master thesis. You should try to \textit{replicate} “as
+	close as possible” this PDF document using \LaTeX. This does not
+	exclude making some changes as long as they are relevant. Submission
+	instructions can be found in Section \ref{submit}}.
+\end{abstract}
+
+\section{Introduction}\label{intro}
+\par{There is a handy book about \LaTeX~\cite{lamport} available at the LNU library, but if you search online you should find many examples and guides, like e.g. \cite{lees-miller} on \cite{lees-miller-hammersley}, or extensive information on \cite{latexproject}.}
+\subsection{Subsection about tables} \label{subtables}
+\par{Based on extensive research by \cite{alissandrakis}, Table \ref{table:1} illustrates what usually happens
+	depending if a student does submit an assignment (\textit {S}) or does not (!\textit {S}) before
+	a given deadline, and whether the teacher then grades that assignment (\textit{G})
+	or not (!\textit{G}) within a reasonable amount of time (providing also comments
+	and feedback).}
+\begin{table}[H] 
+	\centering
+	\begin{tabular}{ c|cc }
+		 & \textbf{S} & \textbf{!S} \\ 
+		\hline
+		\textbf{G} & (1,1) & (0,-1) \\ 
+		\hline
+		\textbf{!G} & (0,0) & (0,-1) \\ 
+	\end{tabular}
+\caption[The deadline dilemma]{\noindent \textbf{The deadline dilemma}. Payoff matrix for \textit{(teacher, student)}. Note that this is not a zero-sum game}
+\label{table:1}
+\end{table} 
+\par The typesetting of the table is deliberately kept plain and simple for this example.
+\begin{figure}[t]
+	\includegraphics[width=6cm]{images/4ME301HT19-LaTeX-gauci}
+	\centering
+	\caption[Image of a lolcat]{\noindent This is an image of a feline that induces loud laughter. It appears to be half the width of the text.}
+	\label{figure:1}
+\end{figure}
+\subsection{Subsection about figures} \label{subfig}
+\par{One of the nice things about \LaTeX~is that it is very easy to insert images, like Figure \ref{figure:1}. For your version of this document you can use another similar image. Unless you took the photo or created the plot, always attribute the appropriate copyright licenses. This particular image was modified by \textit{AmosWolfe} based on an original photo\footnote{\url {https://www.flickr.com/photos/jerry7171/217217265/}} by \textit{Jerry7171} and is being distributed under a Creative Commons license\footnote{\url{https://creativecommons.org/licenses/by-sa/3.0/}}}.
+\section{How to submit} \label{submit}
+\par {When you compose and compile the final version of this document, you should upload a \texttt {.zip} file on the course moodle that contains:}
+\begin{enumerate}
+	\item the compiled \texttt{.pdf} file;
+	\item the source (\texttt{.tex}, \texttt{.bib}, and the image file)
+\end{enumerate}
+\par \noindent The filename template for these files, besides the image file, should be:
+\begin{itemize}
+\item \texttt{4ME301-LaTeX-[yoursurname].xxx}
+\end{itemize}
+\section{What the different sections are about}
+\par {Section \ref{intro} is about citing and creating a plain bibliography. Subsections \ref{subtables} and \ref{subfig} are about tables and images respectively. Two footnotes are used in subsection \ref{subfig}. Section \ref{submit} contains lists. Also there are many hyperlinks throughout the text, especially in the current section.}
+
+\bibliographystyle{plain}
+\bibliography{4ME301HT19-LaTeX-gauci}
+
+\listoffigures
+\listoftables
+\end{document}

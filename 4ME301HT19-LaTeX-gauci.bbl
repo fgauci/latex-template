@@ -1,0 +1,27 @@
+\begin{thebibliography}{1}
+
+\bibitem{latexproject}
+The LaTeX project website. {\url{https://www.latex-project.org}}. Accessed: August 18, 2017.
+
+\bibitem{alissandrakis}
+Aris Alissandrakis.
+\newblock Title of the article.
+\newblock {\em Name of the journal}, 4(2):245--321, 2016.
+
+\bibitem{lamport}
+Leslie Lamport.
+\newblock {\em LATEX: a document preparation system: a user's guide and
+  reference manual}.
+\newblock Addison-Wesley, cop, Reading, Massachusetts, 1994.
+
+\bibitem{lees-miller}
+John Lees-Miller.
+\newblock Free \& interactive online introduction to latex. {\url{https://www.overleaf.com/latex/learn/
+free-online-introduction-to-latex-part-1}}, 2015. Accessed: August 18, 2017.
+
+\bibitem{lees-miller-hammersley}
+John Lees-Miller and John Hammersley.
+\newblock Overleaf website. {\url{https://
+www.overleaf.com}}. Accessed: August 18, 2017.
+
+\end{thebibliography}

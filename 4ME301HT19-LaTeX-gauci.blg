@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: 4ME301HT19-LaTeX-gauci.aux
+The style file: plain.bst
+Database file #1: 4ME301HT19-LaTeX-gauci.bib
+Warning--entry type for "lees-miller-hammersley" isn't style-file defined
+--line 11 of file 4ME301HT19-LaTeX-gauci.bib
+Warning--entry type for "lees-miller" isn't style-file defined
+--line 20 of file 4ME301HT19-LaTeX-gauci.bib
+Warning--entry type for "latexproject" isn't style-file defined
+--line 50 of file 4ME301HT19-LaTeX-gauci.bib
+Warning--to sort, need author or key in latexproject
+You've used 5 entries,
+            2118 wiz_defined-function locations,
+            517 strings with 4427 characters,
+and the built_in function-call counts, 1102 in all, are:
+= -- 97
+> -- 35
+< -- 0
++ -- 16
+- -- 10
+* -- 52
+:= -- 179
+add.period$ -- 11
+call.type$ -- 5
+change.case$ -- 19
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 44
+empty$ -- 117
+format.name$ -- 10
+if$ -- 238
+int.to.chr$ -- 0
+int.to.str$ -- 5
+missing$ -- 3
+newline$ -- 24
+num.names$ -- 8
+pop$ -- 35
+preamble$ -- 1
+purify$ -- 15
+quote$ -- 0
+skip$ -- 42
+stack$ -- 0
+substring$ -- 47
+swap$ -- 5
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 18
+warning$ -- 1
+while$ -- 9
+width$ -- 6
+write$ -- 44
+(There were 4 warnings)
